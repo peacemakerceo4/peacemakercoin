@@ -71,7 +71,7 @@ Simply open `index.html` directly in your web browser.
 
 ### Navigation
 - **Fixed Header**: Always visible navigation bar
-- **Brand Logo**: Peace symbol with "peacemaker.world" branding
+- **Brand Logo**: Peace symbol with "peacemakercoin.world" branding
 - **Smooth Scrolling**: Animated scrolling to page sections
 
 ## Customization
@@ -123,7 +123,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Support
 
 For support and questions:
-- Email: support@peacemaker.world
+- Email: support@peacemakercoin.world
 - Discord: [Peacemaker Community](https://discord.gg/peacemaker)
 - Twitter: [@PeacemakerCoin](https://twitter.com/peacemakercoin)
 
