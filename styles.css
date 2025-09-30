@@ -340,6 +340,10 @@ body {
         font-size: 1rem;
     }
 
+    .main {
+        margin-top: 120px; /* Increased for mobile header */
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -400,6 +404,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .main {
+        margin-top: 140px; /* Even larger for very small screens */
+    }
+
     .nav {
         padding: 0.8rem;
         flex-direction: column;
