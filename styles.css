@@ -393,6 +393,24 @@ body {
     color: white;
 }
 
+.statement-box {
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    color: #fff;
+}
+
+.statement-box h3 {
+    color: #ffd700;
+    margin-bottom: 0.6rem;
+    font-size: 1.25rem;
+}
+
+.statement-box p { line-height: 1.6; opacity: 0.95; }
+
 .timeline {
     position: relative;
     max-width: 800px;
