@@ -205,6 +205,30 @@ body {
     justify-content: center;
 }
 
+.mega-title {
+    position: absolute;
+    top: -300px; /* sits level with left headline */
+    right: -300px; /* moved additional ~0.5 inch to the right */
+    transform: translateY(-10%);
+    font-size: 2.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    padding-left: 1rem;
+    max-width: 900px; /* tighten width so it doesn't intrude left column */
+    line-height: 1.2;
+    white-space: nowrap; /* keep exactly two lines with <br> */
+}
+
+@media (max-width: 1024px) {
+    .mega-title { font-size: 2rem; max-width: 720px; right: -248px; top: -220px; white-space: normal; }
+}
+
+@media (max-width: 768px) {
+    .mega-title { position: static; text-align: center; margin: 0.75rem auto 0.5rem; font-size: 1.4rem; white-space: normal; }
+}
+
 .character-image-wrapper {
     position: relative;
     z-index: 2;
@@ -625,6 +649,11 @@ body {
         padding: 0.9rem 1.8rem;
         font-size: 0.95rem;
     }
+
+    /* News banner mobile tweaks */
+    .news-banner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+    .news-text { font-size: 0.9rem; }
+    .news-badge { font-size: 0.8rem; }
 }
 
 @media (max-width: 480px) {
@@ -693,4 +722,7 @@ body {
         padding: 0.8rem 1.5rem;
         font-size: 0.9rem;
     }
+
+    /* News banner very small screens */
+    .news-text { font-size: 0.85rem; }
 }
